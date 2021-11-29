@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg{
+  background-color: rgba(0, 0, 0, 0.068);
+}
+body{
+  /* background-color: #000; */
+  overflow-x: hidden;
+}
+.cards{
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-img{
+  height: 300px;
+  width: 150;
+}
+.main-con{
+  width: 100vw;
+  height: 100%;
+  background-color: #212529;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.bgim{
+  width: 100%;
+  height: 40rem;
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.bgim .netflix-head{
+  /* border: 2px solid white; */
+  width: 35rem;
+  height: 200px;
+  position:absolute;
+  color: #ffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
