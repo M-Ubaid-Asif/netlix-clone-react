@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Button, Container, Navbar, Nav } from 'react-bootstrap'
 // import {Logo} from './netflixlogo'
 const Header = () => {
   return (
